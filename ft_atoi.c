@@ -32,9 +32,3 @@ int ft_atoi(const char *str) {
   }
   return result * sign;
 }
-
-// int main() {
-//   printf("%d\n", ft_atoi("++---1213413"));
-//   printf("%d\n", ft_atoi("++---a1213413"));
-//   printf("%d\n", ft_atoi("++--32bd123"));
-// }
