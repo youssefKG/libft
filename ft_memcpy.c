@@ -4,7 +4,7 @@ void *ft_memcpy(void *dest, const void *src, size_t n)
 {
   size_t i;
   char *dest_ptr;
-  const char *src_ptr;
+  char *src_ptr;
 
   if (!src || !dest)
     return 0;

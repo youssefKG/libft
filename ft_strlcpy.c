@@ -1,5 +1,4 @@
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 size_t ft_strlcpy(char *dest, const char *src, size_t n) {
   size_t src_len;
@@ -17,10 +16,3 @@ size_t ft_strlcpy(char *dest, const char *src, size_t n) {
   return src_len;
 }
 
-// int main() {
-//   char dest[] = "youssef";
-//   char src[] = "amine";
-//
-//   ft_strlcpy(dest, src, 8);
-//   printf("dest: %s", dest);
-// }
