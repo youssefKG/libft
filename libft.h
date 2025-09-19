@@ -31,5 +31,6 @@ char *ft_strtrim(const char *s1, const char *set); // done
 char *ft_strtrim_sub(const char *s1, const char *set); // done 
 char *ft_strremove(const char *s1, const char *set); // done
 char **ft_split(const char *s, int c);
+char *ft_itoa(int n);
 
 #endif // !LIBFT_HEADER
