@@ -20,8 +20,8 @@ char *ft_itoa(int n) {
   char *result;
   int i;
   long num;
-  num = n;
 
+  num = n;
   if (n == 0) 
     return ft_strdup("0");
   len = ft_len(n);
