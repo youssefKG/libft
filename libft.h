@@ -27,8 +27,9 @@ char *ft_strdup(const char *str); // done
 void *ft_calloc(size_t nmemb, size_t size); // done
 char *ft_substr(const char *s, unsigned int start, size_t len); // done
 char *ft_strjoin(const char *s1, const char *s2); // done
-char *ft_strtrim_sub(const char *s1, const char *set); // done 
 char *ft_strtrim(const char *s1, const char *set); // done
+char *ft_strtrim_sub(const char *s1, const char *set); // done 
 char *ft_strremove(const char *s1, const char *set); // done
+char **ft_split(const char *s, int c);
 
 #endif // !LIBFT_HEADER

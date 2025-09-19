@@ -12,7 +12,6 @@ int ft_count_set(const char *s, const char *set) {
   s_len = ft_strlen(s);
   set_len = ft_strlen(set);
   i = 0;
-
   while (s[i] && i < s_len) {
     if (ft_strncmp(s + i, set, set_len) == 0) {
       count++;
